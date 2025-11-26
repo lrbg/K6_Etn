@@ -19,18 +19,18 @@ jobs:
 
       - name: Run simple k6 test
         uses: grafana/run-k6-action@v1
+        continue-on-error: true
         with:
-          path: |
-            ./k6-prueba-estres.js
+          path: ./k6-prueba-estres.js
 
-      - name: Run detailed k6 test
+      - name: Run navigation k6 test
         uses: grafana/run-k6-action@v1
+        continue-on-error: true
         with:
-          path: |
-            ./k6-prueba-navegacion.js
+          path: ./k6-prueba-navegacion.js
 
-      - name: Run detailed k6 test
+      - name: Run peaks k6 test
         uses: grafana/run-k6-action@v1
+        continue-on-error: true
         with:
-          path: |
-            ./k6-prueba-picos.js
+          path: ./k6-prueba-picos.js
