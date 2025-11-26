@@ -6,7 +6,7 @@ export const options = {
   stages: [
     { duration: '2m', target: 10 },  // Subir a 10 usuarios en 2 minutos
     { duration: '3m', target: 20 },  // Subir a 20 usuarios en 3 minutos
-    { duration: '3m', target: 30 },  // Subir a 30 usuarios en 3 minutos
+    { duration: '3m', target: 225 },  // Subir a 30 usuarios en 3 minutos
     { duration: '2m', target: 0 },   // Bajar a 0 usuarios en 2 minutos
   ],
   thresholds: {
