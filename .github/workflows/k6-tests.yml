@@ -1,0 +1,36 @@
+name: k6 Performance Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  k6-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup k6
+        uses: grafana/setup-k6-action@v1
+
+      - name: Run simple k6 test
+        uses: grafana/run-k6-action@v1
+        with:
+          path: |
+            ./k6-prueba-estres.js
+
+      - name: Run detailed k6 test
+        uses: grafana/run-k6-action@v1
+        with:
+          path: |
+            ./k6-prueba-navegacion.js
+
+      - name: Run detailed k6 test
+        uses: grafana/run-k6-action@v1
+        with:
+          path: |
+            ./k6-prueba-picos.js
