@@ -1,0 +1,360 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: k6-prueba-simple.js
+        output: json (reportes/resultado.json)
+
+     scenarios: (100.00%) 1 scenario, 5 max VUs, 1m30s max duration (incl. graceful stop):
+              * default: 5 looping VUs for 1m0s (gracefulStop: 30s)
+
+
+running (0m01.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   2% ] 5 VUs  0m01.0s/1m0s
+
+running (0m02.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   3% ] 5 VUs  0m02.0s/1m0s
+
+running (0m03.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   5% ] 5 VUs  0m03.0s/1m0s
+time="2025-11-26T11:43:36-06:00" level=info msg="Status: 200 - Tiempo: 3664.243ms" source=console
+time="2025-11-26T11:43:36-06:00" level=info msg="Status: 200 - Tiempo: 3737.883ms" source=console
+time="2025-11-26T11:43:36-06:00" level=info msg="Status: 200 - Tiempo: 3809.837ms" source=console
+time="2025-11-26T11:43:36-06:00" level=info msg="Status: 200 - Tiempo: 3814.443ms" source=console
+time="2025-11-26T11:43:37-06:00" level=info msg="Status: 200 - Tiempo: 3938.512ms" source=console
+
+running (0m04.0s), 5/5 VUs, 0 complete and 0 interrupted iterations
+default   [   7% ] 5 VUs  0m04.0s/1m0s
+
+running (0m05.0s), 5/5 VUs, 4 complete and 0 interrupted iterations
+default   [   8% ] 5 VUs  0m05.0s/1m0s
+
+running (0m06.0s), 5/5 VUs, 5 complete and 0 interrupted iterations
+default   [  10% ] 5 VUs  0m06.0s/1m0s
+time="2025-11-26T11:43:39-06:00" level=info msg="Status: 200 - Tiempo: 2074.305ms" source=console
+
+running (0m07.0s), 5/5 VUs, 5 complete and 0 interrupted iterations
+default   [  12% ] 5 VUs  0m07.0s/1m0s
+time="2025-11-26T11:43:40-06:00" level=info msg="Status: 200 - Tiempo: 2301.976ms" source=console
+time="2025-11-26T11:43:40-06:00" level=info msg="Status: 200 - Tiempo: 2415.301ms" source=console
+time="2025-11-26T11:43:40-06:00" level=info msg="Status: 200 - Tiempo: 2513.433ms" source=console
+time="2025-11-26T11:43:40-06:00" level=info msg="Status: 200 - Tiempo: 2492.555ms" source=console
+
+running (0m08.0s), 5/5 VUs, 6 complete and 0 interrupted iterations
+default   [  13% ] 5 VUs  0m08.0s/1m0s
+time="2025-11-26T11:43:41-06:00" level=info msg="Status: 200 - Tiempo: 909.47ms" source=console
+
+running (0m09.0s), 5/5 VUs, 10 complete and 0 interrupted iterations
+default   [  15% ] 5 VUs  0m09.0s/1m0s
+time="2025-11-26T11:43:42-06:00" level=info msg="Status: 200 - Tiempo: 1676.513ms" source=console
+
+running (0m10.0s), 5/5 VUs, 11 complete and 0 interrupted iterations
+default   [  17% ] 5 VUs  0m10.0s/1m0s
+time="2025-11-26T11:43:43-06:00" level=info msg="Status: 200 - Tiempo: 2032.739ms" source=console
+time="2025-11-26T11:43:43-06:00" level=info msg="Status: 200 - Tiempo: 1948.904ms" source=console
+time="2025-11-26T11:43:43-06:00" level=info msg="Status: 200 - Tiempo: 2097.231ms" source=console
+
+running (0m11.0s), 5/5 VUs, 12 complete and 0 interrupted iterations
+default   [  18% ] 5 VUs  0m11.0s/1m0s
+time="2025-11-26T11:43:44-06:00" level=info msg="Status: 200 - Tiempo: 1305.946ms" source=console
+time="2025-11-26T11:43:44-06:00" level=info msg="Status: 200 - Tiempo: 572.21ms" source=console
+
+running (0m12.0s), 5/5 VUs, 15 complete and 0 interrupted iterations
+default   [  20% ] 5 VUs  0m12.0s/1m0s
+time="2025-11-26T11:43:45-06:00" level=info msg="Status: 200 - Tiempo: 1457.874ms" source=console
+
+running (0m13.0s), 5/5 VUs, 17 complete and 0 interrupted iterations
+default   [  22% ] 5 VUs  0m13.0s/1m0s
+time="2025-11-26T11:43:46-06:00" level=info msg="Status: 200 - Tiempo: 1845.701ms" source=console
+time="2025-11-26T11:43:46-06:00" level=info msg="Status: 200 - Tiempo: 1897.273ms" source=console
+time="2025-11-26T11:43:46-06:00" level=info msg="Status: 200 - Tiempo: 1603.257ms" source=console
+time="2025-11-26T11:43:47-06:00" level=info msg="Status: 200 - Tiempo: 1645.769ms" source=console
+
+running (0m14.0s), 5/5 VUs, 18 complete and 0 interrupted iterations
+default   [  23% ] 5 VUs  0m14.0s/1m0s
+time="2025-11-26T11:43:47-06:00" level=info msg="Status: 200 - Tiempo: 829.697ms" source=console
+
+running (0m15.0s), 5/5 VUs, 21 complete and 0 interrupted iterations
+default   [  25% ] 5 VUs  0m15.0s/1m0s
+time="2025-11-26T11:43:48-06:00" level=info msg="Status: 200 - Tiempo: 1009.474ms" source=console
+time="2025-11-26T11:43:48-06:00" level=info msg="Status: 200 - Tiempo: 1401.997ms" source=console
+
+running (0m16.0s), 5/5 VUs, 23 complete and 0 interrupted iterations
+default   [  27% ] 5 VUs  0m16.0s/1m0s
+time="2025-11-26T11:43:49-06:00" level=info msg="Status: 200 - Tiempo: 1458.433ms" source=console
+time="2025-11-26T11:43:49-06:00" level=info msg="Status: 200 - Tiempo: 1481.981ms" source=console
+time="2025-11-26T11:43:49-06:00" level=info msg="Status: 200 - Tiempo: 1106.266ms" source=console
+time="2025-11-26T11:43:50-06:00" level=info msg="Status: 200 - Tiempo: 619.093ms" source=console
+
+running (0m17.0s), 5/5 VUs, 25 complete and 0 interrupted iterations
+default   [  28% ] 5 VUs  0m17.0s/1m0s
+time="2025-11-26T11:43:50-06:00" level=info msg="Status: 200 - Tiempo: 732.463ms" source=console
+
+running (0m18.0s), 5/5 VUs, 29 complete and 0 interrupted iterations
+default   [  30% ] 5 VUs  0m18.0s/1m0s
+time="2025-11-26T11:43:51-06:00" level=info msg="Status: 200 - Tiempo: 1007.97ms" source=console
+time="2025-11-26T11:43:51-06:00" level=info msg="Status: 200 - Tiempo: 1232.103ms" source=console
+
+running (0m19.0s), 5/5 VUs, 30 complete and 0 interrupted iterations
+default   [  32% ] 5 VUs  0m19.0s/1m0s
+time="2025-11-26T11:43:52-06:00" level=info msg="Status: 200 - Tiempo: 1554.321ms" source=console
+time="2025-11-26T11:43:52-06:00" level=info msg="Status: 200 - Tiempo: 1679.833ms" source=console
+time="2025-11-26T11:43:53-06:00" level=info msg="Status: 200 - Tiempo: 1416.622ms" source=console
+
+running (0m20.0s), 5/5 VUs, 32 complete and 0 interrupted iterations
+default   [  33% ] 5 VUs  0m20.0s/1m0s
+time="2025-11-26T11:43:53-06:00" level=info msg="Status: 200 - Tiempo: 906.58ms" source=console
+time="2025-11-26T11:43:53-06:00" level=info msg="Status: 200 - Tiempo: 958.107ms" source=console
+
+running (0m21.0s), 5/5 VUs, 35 complete and 0 interrupted iterations
+default   [  35% ] 5 VUs  0m21.0s/1m0s
+time="2025-11-26T11:43:54-06:00" level=info msg="Status: 200 - Tiempo: 834.09ms" source=console
+time="2025-11-26T11:43:54-06:00" level=info msg="Status: 200 - Tiempo: 972.062ms" source=console
+
+running (0m22.0s), 5/5 VUs, 37 complete and 0 interrupted iterations
+default   [  37% ] 5 VUs  0m22.0s/1m0s
+time="2025-11-26T11:43:55-06:00" level=info msg="Status: 200 - Tiempo: 1212.562ms" source=console
+time="2025-11-26T11:43:55-06:00" level=info msg="Status: 200 - Tiempo: 1440.2ms" source=console
+time="2025-11-26T11:43:56-06:00" level=info msg="Status: 200 - Tiempo: 1316.22ms" source=console
+
+running (0m23.0s), 5/5 VUs, 39 complete and 0 interrupted iterations
+default   [  38% ] 5 VUs  0m23.0s/1m0s
+time="2025-11-26T11:43:56-06:00" level=info msg="Status: 200 - Tiempo: 1111.571ms" source=console
+time="2025-11-26T11:43:56-06:00" level=info msg="Status: 200 - Tiempo: 1034.228ms" source=console
+
+running (0m24.0s), 5/5 VUs, 42 complete and 0 interrupted iterations
+default   [  40% ] 5 VUs  0m24.0s/1m0s
+time="2025-11-26T11:43:57-06:00" level=info msg="Status: 200 - Tiempo: 915.931ms" source=console
+time="2025-11-26T11:43:57-06:00" level=info msg="Status: 200 - Tiempo: 1146.848ms" source=console
+
+running (0m25.0s), 5/5 VUs, 44 complete and 0 interrupted iterations
+default   [  42% ] 5 VUs  0m25.0s/1m0s
+time="2025-11-26T11:43:58-06:00" level=info msg="Status: 200 - Tiempo: 1184.998ms" source=console
+time="2025-11-26T11:43:58-06:00" level=info msg="Status: 200 - Tiempo: 996.607ms" source=console
+time="2025-11-26T11:43:58-06:00" level=info msg="Status: 200 - Tiempo: 1190.858ms" source=console
+
+running (0m26.0s), 5/5 VUs, 46 complete and 0 interrupted iterations
+default   [  43% ] 5 VUs  0m26.0s/1m0s
+time="2025-11-26T11:43:59-06:00" level=info msg="Status: 200 - Tiempo: 1179.226ms" source=console
+time="2025-11-26T11:43:59-06:00" level=info msg="Status: 200 - Tiempo: 806.748ms" source=console
+
+running (0m27.0s), 5/5 VUs, 49 complete and 0 interrupted iterations
+default   [  45% ] 5 VUs  0m27.0s/1m0s
+time="2025-11-26T11:44:00-06:00" level=info msg="Status: 200 - Tiempo: 911.715ms" source=console
+time="2025-11-26T11:44:00-06:00" level=info msg="Status: 200 - Tiempo: 1125.187ms" source=console
+time="2025-11-26T11:44:01-06:00" level=info msg="Status: 200 - Tiempo: 1100.499ms" source=console
+
+running (0m28.0s), 5/5 VUs, 51 complete and 0 interrupted iterations
+default   [  47% ] 5 VUs  0m28.0s/1m0s
+time="2025-11-26T11:44:01-06:00" level=info msg="Status: 200 - Tiempo: 1254.187ms" source=console
+time="2025-11-26T11:44:01-06:00" level=info msg="Status: 200 - Tiempo: 1301.135ms" source=console
+
+running (0m29.0s), 5/5 VUs, 54 complete and 0 interrupted iterations
+default   [  48% ] 5 VUs  0m29.0s/1m0s
+time="2025-11-26T11:44:02-06:00" level=info msg="Status: 200 - Tiempo: 1160.152ms" source=console
+time="2025-11-26T11:44:02-06:00" level=info msg="Status: 200 - Tiempo: 1169.087ms" source=console
+time="2025-11-26T11:44:02-06:00" level=info msg="Status: 200 - Tiempo: 725.507ms" source=console
+
+running (0m30.0s), 5/5 VUs, 56 complete and 0 interrupted iterations
+default   [  50% ] 5 VUs  0m30.0s/1m0s
+time="2025-11-26T11:44:03-06:00" level=info msg="Status: 200 - Tiempo: 1040.379ms" source=console
+time="2025-11-26T11:44:03-06:00" level=info msg="Status: 200 - Tiempo: 997.089ms" source=console
+
+running (0m31.0s), 5/5 VUs, 59 complete and 0 interrupted iterations
+default   [  52% ] 5 VUs  0m31.0s/1m0s
+time="2025-11-26T11:44:04-06:00" level=info msg="Status: 200 - Tiempo: 1293.382ms" source=console
+time="2025-11-26T11:44:04-06:00" level=info msg="Status: 200 - Tiempo: 1481.81ms" source=console
+
+running (0m32.0s), 5/5 VUs, 61 complete and 0 interrupted iterations
+default   [  53% ] 5 VUs  0m32.0s/1m0s
+time="2025-11-26T11:44:05-06:00" level=info msg="Status: 200 - Tiempo: 1477.435ms" source=console
+time="2025-11-26T11:44:06-06:00" level=info msg="Status: 200 - Tiempo: 1301.04ms" source=console
+time="2025-11-26T11:44:06-06:00" level=info msg="Status: 200 - Tiempo: 1343.127ms" source=console
+
+running (0m33.0s), 5/5 VUs, 63 complete and 0 interrupted iterations
+default   [  55% ] 5 VUs  0m33.0s/1m0s
+
+running (0m34.0s), 5/5 VUs, 66 complete and 0 interrupted iterations
+default   [  57% ] 5 VUs  0m34.0s/1m0s
+time="2025-11-26T11:44:07-06:00" level=info msg="Status: 200 - Tiempo: 1296.931ms" source=console
+time="2025-11-26T11:44:07-06:00" level=info msg="Status: 200 - Tiempo: 1309.735ms" source=console
+time="2025-11-26T11:44:07-06:00" level=info msg="Status: 200 - Tiempo: 1235.017ms" source=console
+time="2025-11-26T11:44:08-06:00" level=info msg="Status: 200 - Tiempo: 991.703ms" source=console
+
+running (0m35.0s), 5/5 VUs, 66 complete and 0 interrupted iterations
+default   [  58% ] 5 VUs  0m35.0s/1m0s
+time="2025-11-26T11:44:08-06:00" level=info msg="Status: 200 - Tiempo: 1231.729ms" source=console
+
+running (0m36.0s), 5/5 VUs, 70 complete and 0 interrupted iterations
+default   [  60% ] 5 VUs  0m36.0s/1m0s
+time="2025-11-26T11:44:09-06:00" level=info msg="Status: 200 - Tiempo: 1211.313ms" source=console
+time="2025-11-26T11:44:09-06:00" level=info msg="Status: 200 - Tiempo: 1313.56ms" source=console
+time="2025-11-26T11:44:09-06:00" level=info msg="Status: 200 - Tiempo: 1468.784ms" source=console
+
+running (0m37.0s), 5/5 VUs, 71 complete and 0 interrupted iterations
+default   [  62% ] 5 VUs  0m37.0s/1m0s
+time="2025-11-26T11:44:10-06:00" level=info msg="Status: 200 - Tiempo: 1368.298ms" source=console
+time="2025-11-26T11:44:10-06:00" level=info msg="Status: 200 - Tiempo: 1256.714ms" source=console
+
+running (0m38.0s), 5/5 VUs, 74 complete and 0 interrupted iterations
+default   [  63% ] 5 VUs  0m38.0s/1m0s
+time="2025-11-26T11:44:11-06:00" level=info msg="Status: 200 - Tiempo: 1076.832ms" source=console
+time="2025-11-26T11:44:11-06:00" level=info msg="Status: 200 - Tiempo: 1204.618ms" source=console
+
+running (0m39.0s), 5/5 VUs, 76 complete and 0 interrupted iterations
+default   [  65% ] 5 VUs  0m39.0s/1m0s
+time="2025-11-26T11:44:12-06:00" level=info msg="Status: 200 - Tiempo: 1360.033ms" source=console
+time="2025-11-26T11:44:12-06:00" level=info msg="Status: 200 - Tiempo: 1049.212ms" source=console
+time="2025-11-26T11:44:12-06:00" level=info msg="Status: 200 - Tiempo: 1285.17ms" source=console
+
+running (0m40.0s), 5/5 VUs, 78 complete and 0 interrupted iterations
+default   [  67% ] 5 VUs  0m40.0s/1m0s
+time="2025-11-26T11:44:13-06:00" level=info msg="Status: 200 - Tiempo: 1004.402ms" source=console
+time="2025-11-26T11:44:13-06:00" level=info msg="Status: 200 - Tiempo: 979.277ms" source=console
+
+running (0m41.0s), 5/5 VUs, 81 complete and 0 interrupted iterations
+default   [  68% ] 5 VUs  0m41.0s/1m0s
+time="2025-11-26T11:44:14-06:00" level=info msg="Status: 200 - Tiempo: 998.753ms" source=console
+time="2025-11-26T11:44:14-06:00" level=info msg="Status: 200 - Tiempo: 1203.582ms" source=console
+time="2025-11-26T11:44:14-06:00" level=info msg="Status: 200 - Tiempo: 1242.418ms" source=console
+
+running (0m42.0s), 5/5 VUs, 83 complete and 0 interrupted iterations
+default   [  70% ] 5 VUs  0m42.0s/1m0s
+time="2025-11-26T11:44:15-06:00" level=info msg="Status: 200 - Tiempo: 1203.673ms" source=console
+time="2025-11-26T11:44:15-06:00" level=info msg="Status: 200 - Tiempo: 1238.938ms" source=console
+
+running (0m43.0s), 5/5 VUs, 86 complete and 0 interrupted iterations
+default   [  72% ] 5 VUs  0m43.0s/1m0s
+time="2025-11-26T11:44:16-06:00" level=info msg="Status: 200 - Tiempo: 849.57ms" source=console
+time="2025-11-26T11:44:17-06:00" level=info msg="Status: 200 - Tiempo: 1244.081ms" source=console
+
+running (0m44.0s), 5/5 VUs, 88 complete and 0 interrupted iterations
+default   [  73% ] 5 VUs  0m44.0s/1m0s
+time="2025-11-26T11:44:17-06:00" level=info msg="Status: 200 - Tiempo: 1289.788ms" source=console
+time="2025-11-26T11:44:17-06:00" level=info msg="Status: 200 - Tiempo: 1291.94ms" source=console
+time="2025-11-26T11:44:18-06:00" level=info msg="Status: 200 - Tiempo: 1118.072ms" source=console
+
+running (0m45.0s), 5/5 VUs, 90 complete and 0 interrupted iterations
+default   [  75% ] 5 VUs  0m45.0s/1m0s
+time="2025-11-26T11:44:18-06:00" level=info msg="Status: 200 - Tiempo: 1299.529ms" source=console
+time="2025-11-26T11:44:18-06:00" level=info msg="Status: 200 - Tiempo: 843.868ms" source=console
+time="2025-11-26T11:44:19-06:00" level=info msg="Status: 200 - Tiempo: 834.008ms" source=console
+
+running (0m46.0s), 5/5 VUs, 93 complete and 0 interrupted iterations
+default   [  77% ] 5 VUs  0m46.0s/1m0s
+time="2025-11-26T11:44:19-06:00" level=info msg="Status: 200 - Tiempo: 948.494ms" source=console
+
+running (0m47.0s), 5/5 VUs, 96 complete and 0 interrupted iterations
+default   [  78% ] 5 VUs  0m47.0s/1m0s
+time="2025-11-26T11:44:20-06:00" level=info msg="Status: 200 - Tiempo: 1234.134ms" source=console
+time="2025-11-26T11:44:20-06:00" level=info msg="Status: 200 - Tiempo: 1533.816ms" source=console
+
+running (0m48.0s), 5/5 VUs, 97 complete and 0 interrupted iterations
+default   [  80% ] 5 VUs  0m48.0s/1m0s
+time="2025-11-26T11:44:21-06:00" level=info msg="Status: 200 - Tiempo: 1387.825ms" source=console
+time="2025-11-26T11:44:21-06:00" level=info msg="Status: 200 - Tiempo: 1361.818ms" source=console
+time="2025-11-26T11:44:21-06:00" level=info msg="Status: 200 - Tiempo: 1047.515ms" source=console
+
+running (0m49.0s), 5/5 VUs, 99 complete and 0 interrupted iterations
+default   [  82% ] 5 VUs  0m49.0s/1m0s
+time="2025-11-26T11:44:22-06:00" level=info msg="Status: 200 - Tiempo: 965.003ms" source=console
+time="2025-11-26T11:44:22-06:00" level=info msg="Status: 200 - Tiempo: 804.529ms" source=console
+
+running (0m50.0s), 5/5 VUs, 102 complete and 0 interrupted iterations
+default   [  83% ] 5 VUs  0m50.0s/1m0s
+time="2025-11-26T11:44:23-06:00" level=info msg="Status: 200 - Tiempo: 1088.866ms" source=console
+time="2025-11-26T11:44:23-06:00" level=info msg="Status: 200 - Tiempo: 1190.171ms" source=console
+
+running (0m51.0s), 5/5 VUs, 104 complete and 0 interrupted iterations
+default   [  85% ] 5 VUs  0m51.0s/1m0s
+time="2025-11-26T11:44:24-06:00" level=info msg="Status: 200 - Tiempo: 1220.12ms" source=console
+time="2025-11-26T11:44:24-06:00" level=info msg="Status: 200 - Tiempo: 1181.52ms" source=console
+time="2025-11-26T11:44:24-06:00" level=info msg="Status: 200 - Tiempo: 995.057ms" source=console
+
+running (0m52.0s), 5/5 VUs, 106 complete and 0 interrupted iterations
+default   [  87% ] 5 VUs  0m52.0s/1m0s
+time="2025-11-26T11:44:25-06:00" level=info msg="Status: 200 - Tiempo: 917.402ms" source=console
+time="2025-11-26T11:44:25-06:00" level=info msg="Status: 200 - Tiempo: 1100.402ms" source=console
+
+running (0m53.0s), 5/5 VUs, 109 complete and 0 interrupted iterations
+default   [  88% ] 5 VUs  0m53.0s/1m0s
+time="2025-11-26T11:44:26-06:00" level=info msg="Status: 200 - Tiempo: 910.393ms" source=console
+time="2025-11-26T11:44:26-06:00" level=info msg="Status: 200 - Tiempo: 1248.203ms" source=console
+time="2025-11-26T11:44:26-06:00" level=info msg="Status: 200 - Tiempo: 1036.031ms" source=console
+
+running (0m54.0s), 5/5 VUs, 111 complete and 0 interrupted iterations
+default   [  90% ] 5 VUs  0m54.0s/1m0s
+time="2025-11-26T11:44:27-06:00" level=info msg="Status: 200 - Tiempo: 1180.379ms" source=console
+time="2025-11-26T11:44:27-06:00" level=info msg="Status: 200 - Tiempo: 1049.087ms" source=console
+
+running (0m55.0s), 5/5 VUs, 114 complete and 0 interrupted iterations
+default   [  92% ] 5 VUs  0m55.0s/1m0s
+time="2025-11-26T11:44:28-06:00" level=info msg="Status: 200 - Tiempo: 1185.306ms" source=console
+time="2025-11-26T11:44:28-06:00" level=info msg="Status: 200 - Tiempo: 952.931ms" source=console
+time="2025-11-26T11:44:29-06:00" level=info msg="Status: 200 - Tiempo: 1194.025ms" source=console
+
+running (0m56.0s), 5/5 VUs, 116 complete and 0 interrupted iterations
+default   [  93% ] 5 VUs  0m56.0s/1m0s
+time="2025-11-26T11:44:29-06:00" level=info msg="Status: 200 - Tiempo: 1090.887ms" source=console
+time="2025-11-26T11:44:29-06:00" level=info msg="Status: 200 - Tiempo: 1144.409ms" source=console
+
+running (0m57.0s), 5/5 VUs, 119 complete and 0 interrupted iterations
+default   [  95% ] 5 VUs  0m57.0s/1m0s
+time="2025-11-26T11:44:30-06:00" level=info msg="Status: 200 - Tiempo: 993.546ms" source=console
+time="2025-11-26T11:44:30-06:00" level=info msg="Status: 200 - Tiempo: 1156.619ms" source=console
+time="2025-11-26T11:44:31-06:00" level=info msg="Status: 200 - Tiempo: 1050.015ms" source=console
+
+running (0m58.0s), 5/5 VUs, 121 complete and 0 interrupted iterations
+default   [  97% ] 5 VUs  0m58.0s/1m0s
+time="2025-11-26T11:44:32-06:00" level=info msg="Status: 200 - Tiempo: 1396.074ms" source=console
+
+running (0m59.0s), 5/5 VUs, 124 complete and 0 interrupted iterations
+default   [  98% ] 5 VUs  0m59.0s/1m0s
+time="2025-11-26T11:44:32-06:00" level=info msg="Status: 200 - Tiempo: 1506.526ms" source=console
+time="2025-11-26T11:44:32-06:00" level=info msg="Status: 200 - Tiempo: 1490.49ms" source=console
+time="2025-11-26T11:44:33-06:00" level=info msg="Status: 200 - Tiempo: 1212.614ms" source=console
+
+running (1m00.0s), 5/5 VUs, 125 complete and 0 interrupted iterations
+default   [ 100% ] 5 VUs  1m00.0s/1m0s
+time="2025-11-26T11:44:33-06:00" level=info msg="Status: 200 - Tiempo: 1295.474ms" source=console
+time="2025-11-26T11:44:33-06:00" level=info msg="Status: 200 - Tiempo: 779.549ms" source=console
+
+running (1m01.0s), 2/5 VUs, 128 complete and 0 interrupted iterations
+default ↓ [ 100% ] 5 VUs  1m0s
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 260    4.209675/s
+    checks_succeeded...: 98.07% 255 out of 260
+    checks_failed......: 1.92%  5 out of 260
+
+    ✓ status es 200
+    ✗ página carga en menos de 3s
+      ↳  96% — ✓ 125 / ✗ 5
+
+    HTTP
+    http_req_duration..............: avg=1.34s min=572.21ms med=1.2s max=3.93s p(90)=1.9s p(95)=2.45s
+      { expected_response:true }...: avg=1.34s min=572.21ms med=1.2s max=3.93s p(90)=1.9s p(95)=2.45s
+    http_req_failed................: 0.00%  0 out of 130
+    http_reqs......................: 130    2.104838/s
+
+    EXECUTION
+    iteration_duration.............: avg=2.34s min=1.57s    med=2.2s max=4.99s p(90)=2.9s p(95)=3.45s
+    iterations.....................: 130    2.104838/s
+    vus............................: 2      min=2        max=5
+    vus_max........................: 5      min=5        max=5
+
+    NETWORK
+    data_received..................: 96 MB  1.6 MB/s
+    data_sent......................: 214 kB 3.5 kB/s
+
+
+
+
+running (1m01.8s), 0/5 VUs, 130 complete and 0 interrupted iterations
+default ✓ [ 100% ] 5 VUs  1m0s

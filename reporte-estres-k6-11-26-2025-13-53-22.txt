@@ -1,0 +1,86 @@
+================================================================================
+                    REPORTE DE PRUEBA DE ESTRÉS - K6                            
+================================================================================
+
+INFORMACIÓN DE LA PRUEBA
+------------------------
+Fecha de ejecución     : 11/26/2025
+Hora de ejecución      : 13:53:22
+URL del sitio probado  : https://wordpress-turistar-etn-production.onrender.com
+Tipo de prueba         : PRUEBA DE ESTRÉS (Stress Test)
+Duración total         : 10 minutos
+Usuarios máximos       : 30 usuarios virtuales concurrentes
+
+DESCRIPCIÓN DE LA PRUEBA DE ESTRÉS
+----------------------------------
+Esta prueba incrementa gradualmente la carga para encontrar el punto de quiebre:
+
+FASES DE LA PRUEBA:
+  1. CALENTAMIENTO (0-2 min)   : 0 → 10 usuarios
+  2. CARGA NORMAL (2-5 min)    : 10 → 20 usuarios
+  3. ESTRÉS (5-8 min)          : 20 → 30 usuarios
+  4. RECUPERACIÓN (8-10 min)   : 30 → 0 usuarios
+
+ENDPOINTS PROBADOS:
+  - Página Principal: https://wordpress-turistar-etn-production.onrender.com
+  - aviso-privasidad: https://etn.com.mx/aviso-privacidad.html
+  - quienes somos: https://etn.com.mx/quienes-somos.html
+  - preguntas frecuentes: https://etn.com.mx/preguntas-frecuentes.html
+  - terminos y condiciones: https://etn.com.mx/terminos-condiciones.html
+  - paqueteria: https://etn.com.mx/pack-multienlace/
+  - facturacion: https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion
+  - facturacion: https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion
+
+RESULTADOS GENERALES
+--------------------
+Total de peticiones HTTP       : 4224
+Peticiones exitosas            : 4224
+Peticiones fallidas            : 0
+Tasa de éxito                  : 100.00%
+Datos descargados              : 588.03 MB
+Datos enviados                 : 1588.49 KB
+
+ANÁLISIS DE RENDIMIENTO
+-----------------------
+TIEMPOS DE RESPUESTA:
+  Promedio general     : 211 ms
+  Tiempo mínimo        : 41 ms
+  Tiempo máximo        : 5672 ms
+  Mediana (P50)        : 53 ms
+  Percentil 90         : 812 ms
+  Percentil 95         : 1086 ms
+  Percentil 99         : 0 ms
+
+VERIFICACIONES REALIZADAS
+-------------------------
+⚠ 0: 100.0% (4224/4224)
+✗ 1: 0.0% (0/4224)
+⚠ 2: 99.5% (4204/4224)
+⚠ 3: 98.7% (4169/4224)
+⚠ 4: 100.0% (4224/4224)
+⚠ 5: 100.0% (4224/4224)
+
+ANÁLISIS DEL PUNTO DE QUIEBRE
+------------------------------
+✓  El sistema manejó bien la carga de 30 usuarios
+
+RECOMENDACIONES BASADAS EN LA PRUEBA DE ESTRÉS
+-----------------------------------------------
+
+3. PREPARACIÓN PARA PICOS DE TRÁFICO:
+   • Configurar auto-scaling si es posible
+   • Implementar rate limiting para protección
+   • Considerar un CDN para contenido estático
+
+CAPACIDAD ESTIMADA DEL SISTEMA
+------------------------------
+Usuarios concurrentes recomendados: 30
+Capacidad máxima antes de degradación: 45 usuarios
+
+CONCLUSIÓN DE LA PRUEBA DE ESTRÉS
+---------------------------------
+✅ EXCELENTE: El sistema maneja muy bien el estrés y tiene buena escalabilidad.
+
+================================================================================
+                         FIN DEL REPORTE DE ESTRÉS                              
+================================================================================

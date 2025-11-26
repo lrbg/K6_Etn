@@ -1,0 +1,70 @@
+================================================================================
+                        REPORTE DE PRUEBAS DE RENDIMIENTO K6                    
+================================================================================
+
+INFORMACIÓN DE LA PRUEBA
+------------------------
+Fecha de ejecución     : 11/26/2025
+Hora de ejecución      : 11:49:45
+URL del sitio probado  : https://wordpress-turistar-etn-production.onrender.com
+Tipo de prueba         : Prueba de Carga Básica
+Duración de la prueba  : 1 minuto
+Usuarios concurrentes  : 5 usuarios virtuales (VUs)
+
+DESCRIPCIÓN DE LA PRUEBA
+------------------------
+Esta es una prueba de carga básica que simula 5 usuarios accediendo
+simultáneamente al sitio web durante 1 minuto. Cada usuario:
+  - Accede a la página principal
+  - Espera 1 segundo entre peticiones
+  - Verifica que el sitio responda correctamente
+
+RESULTADOS GENERALES
+--------------------
+Total de peticiones realizadas : 136
+Peticiones exitosas           : 136
+Peticiones fallidas           : 0
+Tasa de éxito                 : 100.00%
+Datos descargados             : 95.92 MB
+Datos enviados                : 211.52 KB
+
+TIEMPOS DE RESPUESTA
+--------------------
+Tiempo promedio      : 1243 ms
+Tiempo mínimo        : 612 ms
+Tiempo máximo        : 2617 ms
+Mediana (P50)        : 1177 ms
+Percentil 95         : 1857 ms (95% de peticiones responden en menos de este tiempo)
+Percentil 99         : 0 ms (99% de peticiones responden en menos de este tiempo)
+
+VERIFICACIONES REALIZADAS (CHECKS)
+----------------------------------
+⚠ ADVERTENCIA | 0: 100.0% (136 de 136)
+⚠ ADVERTENCIA | 1: 100.0% (136 de 136)
+⚠ ADVERTENCIA | 2: 97.1% (132 de 136)
+✗ FALLÓ | 3: 26.5% (36 de 136)
+⚠ ADVERTENCIA | 4: 100.0% (136 de 136)
+
+Resumen: 576 de 680 verificaciones pasaron (84.7%)
+
+UMBRALES DE RENDIMIENTO (THRESHOLDS)
+------------------------------------
+✓ CUMPLIDO | Tasa de error menor al 10%
+✓ CUMPLIDO | 95% de peticiones responden en menos de 3 segundos
+
+ANÁLISIS Y RECOMENDACIONES
+--------------------------
+⚠️  RENDIMIENTO MEJORABLE
+   - El tiempo promedio de respuesta (1243ms) es mayor a 1 segundo
+   - Recomendaciones:
+     • Optimizar imágenes
+     • Minificar CSS y JavaScript
+     • Usar un CDN para contenido estático
+
+CONCLUSIÓN
+----------
+✅ BUENO: El sitio funciona correctamente con oportunidades de mejora.
+
+================================================================================
+                              FIN DEL REPORTE                                   
+================================================================================
